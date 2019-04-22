@@ -1,0 +1,23 @@
+{
+  "name": "hello_cloud_ninjas",
+  "version": "0.1.0",
+  "bin": {
+    "hello_cloud_ninjas": "bin/hello_cloud_ninjas.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "^8.9.4",
+    "typescript": "^3.1.2",
+    "aws-cdk": "*"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-events": "*",
+    "@aws-cdk/aws-lambda": "*",
+    "@aws-cdk/cdk": "^0.28.0",
+    "source-map-support": "^0.5.9"
+  }
+}

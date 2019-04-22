@@ -1,0 +1,3 @@
+{
+    "app": "node bin/hello_cloud_ninjas.js"
+}
