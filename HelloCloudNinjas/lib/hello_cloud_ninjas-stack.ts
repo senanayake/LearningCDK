@@ -5,8 +5,6 @@ import lambda = require('@aws-cdk/aws-lambda');
 import fs = require('fs');
 
 
-
-
 export class HelloCloudNinjasStack extends cdk.Stack {
   constructor(scope: cdk.App, id: string) {
     super(scope, id);
