@@ -1,0 +1,22 @@
+{
+  "name": "tut-2-cron_lambda_sns",
+  "version": "0.1.0",
+  "bin": {
+    "tut-2-cron_lambda_sns": "bin/tut-2-cron_lambda_sns.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "^8.9.4",
+    "typescript": "^3.1.2",
+    "aws-cdk": "^0.29.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda": "^0.29.0",
+    "@aws-cdk/cdk": "^0.29.0",
+    "source-map-support": "^0.5.9"
+  }
+}

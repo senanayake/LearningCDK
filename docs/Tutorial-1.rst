@@ -3,6 +3,7 @@ Tutorial 1: Hello Cloud Engineering Ninjas
 ============================================
 
 This project is a slight modification to the lambda-cron example in the cdk-examples repo.
+https://github.com/senanayake/LearningCDK/tree/master/HelloCloudNinjas
 
 The initial project was generated using 
 
@@ -13,4 +14,6 @@ lambda.Function object that reads the ./lambda-handler.py file at run time execu
 This definition shows how an Lambda function can be defined as an inline object.
 
 This can be observed before deployment by executing the cdk synth command.
+
+
 
